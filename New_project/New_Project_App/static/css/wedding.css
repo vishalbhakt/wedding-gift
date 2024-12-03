@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/banners/wd2.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.info {
+    color: white;
+    font-size: 20px;
+    padding: 20px 70px;
+    cursor: pointer;
+}
+
+.info span {
+    margin: 0 10px;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 2em;
+    font-family: normal;
+    letter-spacing: 2px;
+
+}
+
+.logo i {
+    color: #e84393;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu a:last-child {
+    background: #e84393;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    background: #e84393;
+    border-radius: 8px;
+}
+
+.box {
+    background: white;
+    width: 450px;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    padding: 20px 20px 10px 30px;
+    border-radius: 3%;
+    margin-right: 10px;
+    border: 5px solid grey;
+}
+form {
+    width: 100%;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+form input[type="email"], form input[type="number"], form input[type="password"], form input[type="file"], form input[type="name"] {
+    margin: 2px 0px 2px 0px;
+    line-height: 70%;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 50%;
+    padding: 2px 5px;
+    margin: 10px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background: #e84393;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+form input[type="submit"]:hover {
+    background: transparent;
+    border: 1px solid grey;
+    color: black;
+}
+
+.box span {
+    color: #e84393;
+    cursor: pointer;
+}
+
+.htext {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+    color: white;
+
+}
+
+.htext h1 {
+    font-size: 2em;
+}
+
+.htext h2 {
+    font-size: 4em;
+}
+
+.htext span {
+    color: #e84393;
+}
+
+.htext p {
+    margin: 15px 0;
+    line-height: 2em;
+}
+
+.htext a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    border-radius: 8pc;
+    transition: 0.4s;
+}
+
+.htext a:hover {
+    background: #e84393;
+}
+
+.select_01 {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0px 4px 0px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.select_02 {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.hint_01 {
+    color: rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin-right: 53px;
+    font-size: 95%;
+}
+
+.hint_02 {
+    color: rgba(0, 0, 0, 0.5);
+    display: inline;
+    margin-right: 20px;
+    font-size: 95%;
+}
+
+#age, #for {
+    background-color: lightslategrey
+}
+
+.shadow {
+    display: inline-block;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-radius: 10%;
+}
